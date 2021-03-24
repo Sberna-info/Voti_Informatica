@@ -1,0 +1,40 @@
+﻿<Window x:Class="Wpf_Voti_Informatica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Voti_Informatica"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="1"/>
+                <GradientStop Color="#FF23FF00" Offset="0.633"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Compito n1" HorizontalAlignment="Left" Margin="95,80,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compito n2" HorizontalAlignment="Left" Margin="95,133,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compito n3" HorizontalAlignment="Left" Margin="95,186,0,0" VerticalAlignment="Top"/>
+        <Label Content="Compito n4" HorizontalAlignment="Left" Margin="95,235,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtC3" HorizontalAlignment="Left" Margin="220,186,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+        <TextBox x:Name="txtC2" HorizontalAlignment="Left" Margin="220,133,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+        <TextBox x:Name="txtC1" HorizontalAlignment="Left" Margin="220,80,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+        <TextBox x:Name="txtC4" HorizontalAlignment="Left" Margin="220,235,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="26"/>
+        <Button x:Name="btnCalcola" Content="Calcola" HorizontalAlignment="Left" Margin="605,264,0,0" VerticalAlignment="Top" Height="40" Width="90" Click="btnCalcola_Click" BorderBrush="Black" Background="Black" Foreground="#FF01F518"/>
+        <Label x:Name="lblMedia" Content="Media" HorizontalAlignment="Left" Margin="482,80,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblStampaMedia" Content="" HorizontalAlignment="Left" Margin="550,80,0,0" VerticalAlignment="Top" Width="110" Background="White"/>
+        <Label x:Name="lblStampa" Content="" FontFamily="Times New Roman Bold Italic" FontSize="30" HorizontalAlignment="Left" Margin="310,349,0,0" VerticalAlignment="Top" Width="330" Height="45" Background="White" Foreground="#FF0CFF00"/>
+        <Label Content="Voti informatica" HorizontalAlignment="Left" Margin="120,19,0,0" VerticalAlignment="Top" FontFamily="Times New Roman Bold Italic" FontSize="28" FontWeight="bold"/>
+        <Label Content="Min" HorizontalAlignment="Left" Margin="482,133,0,0" VerticalAlignment="Top" Width="43"/>
+        <Label x:Name="lblStampaMin" Content="" HorizontalAlignment="Left" Margin="550,133,0,0" VerticalAlignment="Top" Width="110" Background="White"/>
+        <Label Content="Max" HorizontalAlignment="Left" Margin="482,186,0,0" VerticalAlignment="Top" Width="43"/>
+        <Label x:Name="lblStampaMax" Content="" HorizontalAlignment="Left" Margin="550,186,0,0" VerticalAlignment="Top" Width="110" Background="White"/>
+        <Label Content="Incidenza %" HorizontalAlignment="Left" Margin="380,43,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblIncV1" Content="" HorizontalAlignment="Left" Margin="405,80,0,0" VerticalAlignment="Top" Width="48" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lblIncV2" Content="" HorizontalAlignment="Left" Margin="405,133,0,0" VerticalAlignment="Top" Width="48" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lblIncV3" Content="" HorizontalAlignment="Left" Margin="405,186,0,0" VerticalAlignment="Top" Width="48" Background="White" BorderBrush="Black"/>
+        <Label x:Name="lblIncV4" Content="" HorizontalAlignment="Left" Margin="405,235,0,0" VerticalAlignment="Top" Width="48" Background="White" BorderBrush="Black"/>
+
+    </Grid>
+</Window>

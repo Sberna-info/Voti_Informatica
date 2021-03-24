@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wpf_Voti_Informatica", "Wpf_Voti_Informatica\Wpf_Voti_Informatica.csproj", "{04B6E2B0-856B-4C41-874F-EB6BBC3DE505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcoli", "Calcoli\Calcoli.csproj", "{E9395F21-E9B8-4048-9300-995E1D2C921D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B6E2B0-856B-4C41-874F-EB6BBC3DE505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B6E2B0-856B-4C41-874F-EB6BBC3DE505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B6E2B0-856B-4C41-874F-EB6BBC3DE505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B6E2B0-856B-4C41-874F-EB6BBC3DE505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9395F21-E9B8-4048-9300-995E1D2C921D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9395F21-E9B8-4048-9300-995E1D2C921D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9395F21-E9B8-4048-9300-995E1D2C921D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9395F21-E9B8-4048-9300-995E1D2C921D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {107D11D9-9BF0-4215-9938-75D5A3CEEEC7}
+	EndGlobalSection
+EndGlobal
